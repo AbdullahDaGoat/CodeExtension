@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "My Extension",
+  "version": "1.0",
+  "description": "An extension that embeds a website in an iframe",
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "host_permissions": [
+    "https://*/*"
+  ]
+}
