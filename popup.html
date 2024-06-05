@@ -3,21 +3,28 @@
   <head>
     <style>
       body {
-        width: 800px;
-        height: 600px;
-        margin: 0;
+        width: 428px; /* iPhone 12 Pro Max screen width */
+        height: 1000px; /* Maximum Height possible */
+        margin: 0; 
         padding: 0;
+        display: flex;
+        background-color: white;
+        justify-content: center;
+        align-items: center;
+        font-family: Arial, sans-serif;
       }
 
       iframe {
         width: 100%;
         height: 100%;
         border: none;
+        border-radius: 30px; /* Add rounded corners */
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Add a subtle drop shadow */
       }
     </style>
   </head>
   <body>
-    <iframe id="website-iframe" frameborder="0"></iframe>
+    <iframe id="website-iframe" src="https://poe.com/GPT-4o" frameborder="0"></iframe>
     <script src="popup.js"></script>
   </body>
 </html>

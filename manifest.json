@@ -1,12 +1,13 @@
 {
   "manifest_version": 3,
-  "name": "My Extension",
+  "name": "GPT-4o - Poe",
   "version": "1.0",
-  "description": "An extension that embeds a website in an iframe",
+  "description": "Explore, create, and chat with AI on Poe.",
+  "permissions": [
+    "storage",
+    "tabs"
+  ],
   "action": {
     "default_popup": "popup.html"
-  },
-  "host_permissions": [
-    "https://*/*"
-  ]
+  }
 }
