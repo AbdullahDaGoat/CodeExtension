@@ -5,9 +5,21 @@
   "description": "Explore, create, and chat with AI on Poe.",
   "permissions": [
     "storage",
-    "tabs"
-  ],
+    "tabs",
+    "commands"
+  ], 
+  "commands": {
+    "open-extension": {
+      "suggested_key": {
+        "default": "Alt+Shift+O"
+      },
+      "description": "Open the extension"
+    }
+  },
   "action": {
     "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
   }
 }
